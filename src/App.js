@@ -13,8 +13,7 @@ class App extends Component {
   onSearchChange = (event) =>{
     const searchFields = event.target.value.toLocaleUpperCase()
     this.setState(() =>{
-      return {searchFields
-      }
+      return {searchFields}
     })
   }
   componentDidMount() {
