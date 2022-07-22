@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import './seach-box.style.css '
+import './seach-box.style.css'
 
 class SeachBox extends Component{
   render() {
