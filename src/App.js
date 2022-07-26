@@ -10,7 +10,6 @@ const App = () => {
   const [filterMonsters,setFilterMonsters] = useState(monsters)
 
   useEffect(() =>{
-    console.log('fetch at here')
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((users) => setMonsters(users)
